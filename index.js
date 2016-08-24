@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var bcrypt = require('bcrypt');
 var passport = require('passport');
 
-var User = require('../user-model');
+//var User = require('../user-model');
 
 var validator = require('./utils/validator');
 var passportStrategy = require('./config/passport-strategy');
